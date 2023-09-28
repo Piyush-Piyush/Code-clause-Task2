@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300&family=Nunito:wght@300;400&family=Oswald&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+
+<body>
+    <div id="hero">
+        <div id="heading">
+            <h1>url shortner</h1>
+        </div>
+        <div id="shortner">
+            <div id="input">
+                <input type="text" id="longUrl" placeholder="Enter a URL to shorten">
+                <button class="mybutton" id="shortBtn">shorten</button>
+            </div>
+            <div id="output">
+                <p>Shortened URL:</p>
+                <input type="text" id="shortUrl" readonly>
+                <button><span id="copyButton" class="material-symbols-outlined">
+                        content_copy
+                    </span></button>
+            </div>
+            <div id="prompt">
+                <div id="msg">copied to clipboard</div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    
+</body>
+</html>

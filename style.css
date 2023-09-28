@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#hero{
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(to bottom,gray,black);
+    font-family: 'Oswald', sans-serif;
+}
+
+#heading {
+    display: flex;
+    justify-content: center;
+    height: fit-content;
+    padding: 40px;
+    
+}
+
+#heading h1{
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+#input{
+    margin: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 75px;
+   
+}
+
+#input .mybutton{
+    padding: 5px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#output{
+    margin: 75px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+
+#output button{
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    transition: transform 0.1s;
+}
+
+#prompt {
+    opacity: 0;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: opacity 0.5s ease;
+}
+
+
+#msg {
+    color:whitesmoke;
+    border-radius: 10px;    
+    padding: 2px 3px;
+  }
+  
+button:active {
+    transform: scale(0.85);
+  }
